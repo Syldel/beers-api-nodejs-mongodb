@@ -12,7 +12,8 @@ var mongo = require('mongodb');
 
 var Server = mongo.Server,
     Db = mongo.Db,
-    BSON = mongo.BSONPure;
+    //BSON = mongo.pure().BSON,
+    ObjectID = mongo.ObjectID;
 
 var server = new Server('localhost', 27017, {
     auto_reconnect: true
@@ -34,15 +35,30 @@ db.open(function(err, db) {
 });
 
 exports.findById = function(req, res) {
+
+    console.log('Retrieving %o ', req);
+
     var id = req.params.id;
     console.log('Retrieving beer: ' + id);
+
     db.collection('beers', function(err, collection) {
-        collection.findOne({
-            '_id': new BSON.ObjectID(id)
-        }, function(err, item) {
-            res.send(item);
-        });
+
+        if (ObjectID.isValid(id)) {
+            collection.findOne({
+                '_id': new ObjectID(id)
+            }, function(err, item) {
+                res.send(item);
+            });
+        } else {
+            res.send({
+                'error': id + ' is not a valid ID'
+            });
+        }
+
+        // ObjectID.createFromHexString(id) ???
+
     });
+
 };
 
 exports.findAll = function(req, res) {
@@ -78,21 +94,30 @@ exports.updateBeer = function(req, res) {
     console.log('Updating beer: ' + id);
     console.log(JSON.stringify(beer));
     db.collection('beers', function(err, collection) {
-        collection.update({
-            '_id': new BSON.ObjectID(id)
-        }, beer, {
-            safe: true
-        }, function(err, result) {
-            if (err) {
-                console.log('Error updating beer: ' + err);
-                res.send({
-                    'error': 'An error has occurred'
-                });
-            } else {
-                console.log('' + result + ' document(s) updated');
-                res.send(beer);
-            }
-        });
+
+        if (ObjectID.isValid(id)) {
+
+            collection.update({
+                '_id': new ObjectID(id)
+            }, beer, {
+                safe: true
+            }, function(err, result) {
+                if (err) {
+                    console.log('Error updating beer: ' + err);
+                    res.send({
+                        'error': 'An error has occurred'
+                    });
+                } else {
+                    console.log('' + result + ' document(s) updated');
+                    res.send(beer);
+                }
+            });
+        } else {
+            res.send({
+                'error': id + ' is not a valid ID'
+            });
+        }
+
     });
 };
 
@@ -100,20 +125,27 @@ exports.deleteBeer = function(req, res) {
     var id = req.params.id;
     console.log('Deleting beer: ' + id);
     db.collection('beers', function(err, collection) {
-        collection.remove({
-            '_id': new BSON.ObjectID(id)
-        }, {
-            safe: true
-        }, function(err, result) {
-            if (err) {
-                res.send({
-                    'error': 'An error has occurred - ' + err
-                });
-            } else {
-                console.log('' + result + ' document(s) deleted');
-                res.send(req.body);
-            }
-        });
+
+        if (ObjectID.isValid(id)) {
+            collection.remove({
+                '_id': new ObjectID(id)
+            }, {
+                safe: true
+            }, function(err, result) {
+                if (err) {
+                    res.send({
+                        'error': 'An error has occurred - ' + err
+                    });
+                } else {
+                    console.log('' + result + ' document(s) deleted');
+                    res.send(req.body);
+                }
+            });
+        } else {
+            res.send({
+                'error': id + ' is not a valid ID'
+            });
+        }
     });
 };
 
