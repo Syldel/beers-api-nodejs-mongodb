@@ -36,8 +36,6 @@ db.open(function(err, db) {
 
 exports.findById = function(req, res) {
 
-    console.log('Retrieving %o ', req);
-
     var id = req.params.id;
     console.log('Retrieving beer: ' + id);
 
@@ -76,14 +74,32 @@ exports.addBeer = function(req, res) {
         collection.insert(beer, {
             safe: true
         }, function(err, result) {
+
             if (err) {
+                console.log('Error inserting into the collection: ', err);
+                // 500
                 res.send({
-                    'error': 'An error has occurred'
+                    'error': 'Error inserting into the collection'
                 });
             } else {
-                console.log('Success: ' + JSON.stringify(result[0]));
-                res.send(result[0]);
+                // 201, 400
+                console.log('item has been inserted! ' + result);
+                //res.send(result[0]);
+                res.send(201); // created
             }
+
+            /*
+                     if (err) {
+                         console.log('Error inserting into the collection: ', err);
+                         request.respond(500, {
+                             error: err
+                         });
+                     } else {
+                         // item has been inserted!
+                         request.respond(201, result);
+                     }
+                     */
+
         });
     });
 };
@@ -98,20 +114,24 @@ exports.updateBeer = function(req, res) {
         if (ObjectID.isValid(id)) {
 
             collection.update({
-                '_id': new ObjectID(id)
-            }, beer, {
-                safe: true
-            }, function(err, result) {
-                if (err) {
-                    console.log('Error updating beer: ' + err);
-                    res.send({
-                        'error': 'An error has occurred'
-                    });
-                } else {
-                    console.log('' + result + ' document(s) updated');
-                    res.send(beer);
-                }
-            });
+                    '_id': new ObjectID(id)
+                }, {
+                    $set: beer
+                }, {
+                    safe: true
+                },
+                function(err, result) {
+                    if (err) {
+                        console.log('Error updating in the collection: ' + err);
+                        res.send({
+                            'error': 'An error has occurred'
+                        });
+                    } else {
+                        // 200, 301, 400, 410
+                        console.log('' + result + ' document(s) updated');
+                        res.send(beer);
+                    }
+                });
         } else {
             res.send({
                 'error': id + ' is not a valid ID'
@@ -134,9 +154,10 @@ exports.deleteBeer = function(req, res) {
             }, function(err, result) {
                 if (err) {
                     res.send({
-                        'error': 'An error has occurred - ' + err
+                        'error': 'Error deleting item in the collection: ' + err
                     });
                 } else {
+                    // 200, 204
                     console.log('' + result + ' document(s) deleted');
                     res.send(req.body);
                 }
