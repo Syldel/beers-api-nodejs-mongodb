@@ -1,0 +1,683 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ser",
+				"seringueBitmap"
+			],
+			[
+				"build",
+				"buildTopButtons"
+			],
+			[
+				"main",
+				"mainContainer"
+			],
+			[
+				"gr",
+				"gridWidthCase"
+			],
+			[
+				"array",
+				"arrayImages"
+			],
+			[
+				"d",
+				"dispose"
+			],
+			[
+				"stage",
+				"stagewidth"
+			],
+			[
+				"arra",
+				"arrayImages"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"current",
+				"currentTarget"
+			],
+			[
+				"offset",
+				"offsetY"
+			],
+			[
+				"set",
+				"createjs.Ticker.setFPS()"
+			],
+			[
+				"point",
+				"pointVisorVibration"
+			],
+			[
+				"curren",
+				"currentVisorPositionY"
+			],
+			[
+				"w",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 81.0,
+		"selected_items":
+		[
+			[
+				"hint",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"lintee",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"linter",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"lin",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"linternew",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"sublinter",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"linterde",
+				"SublimeLinter: Enable Debug Mode"
+			],
+			[
+				"linte",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"lint",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"packin",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 867.0,
+		"history":
+		[
+			"C:\\Users\\Nassim\\AppData\\Roaming\\Sublime Text 3\\Packages\\codeformatter\\jsformatter.py",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/F/Sylvain/nodebeers"
+	],
+	"file_history":
+	[
+		"/F/Sylvain/nodebeers/server.js",
+		"/F/Sylvain/myapp/hello.js",
+		"/F/Sylvain/myapp/example.js",
+		"/C/xampp/htdocs/sylvain/pasteur/js/ScoreBar.js",
+		"/M/UCHRONIE/Dev/games/validated/pasteur/js/SkipButton.js",
+		"/C/xampp/htdocs/sylvain/pasteur/js/TowerButtonDefense.js",
+		"/M/UCHRONIE/Dev/games/validated/pasteur/js/TowerButtonDefense.js",
+		"/M/UCHRONIE/Dev/games/validated/pasteur/js/TutoElement.js",
+		"/M/UCHRONIE/Design/_JEUX/PASTEUR/anim/bacterie/bacterie.js",
+		"/M/UCHRONIE/Dev/games/validated/pasteur/js/EnemyEntity.js",
+		"/M/UCHRONIE/Dev/games/validated/pasteur/js/DefenseEntity.js",
+		"/C/xampp/htdocs/sylvain/pasteur/js/DefenseEntity.js",
+		"/C/xampp/htdocs/sylvain/pasteur/js/ndgmr.Collision.js",
+		"/C/xampp/htdocs/sylvain/pasteur/js/SkipButton.js",
+		"/C/xampp/htdocs/sylvain/pasteur/js/TutoElement.js",
+		"/M/UCHRONIE/Dev/games/validated/pasteur/js/LifeBar.js",
+		"/M/UCHRONIE/Dev/games/validated/pasteur/js/PasteurMain.js",
+		"/M/UCHRONIE/Design/_JEUX/PASTEUR/anim/Antigene/antigene.js",
+		"/M/UCHRONIE/Design/_JEUX/PASTEUR/anim/integration/retrovirus.js",
+		"/M/UCHRONIE/Design/_JEUX/PASTEUR/anim/anticorps/anticorps.js",
+		"/M/UCHRONIE/Design/_JEUX/PASTEUR/anim/anticorps/antigene.js",
+		"/M/UCHRONIE/Design/_JEUX/PASTEUR/anim/integration/anticorps.js",
+		"/M/UCHRONIE/Design/_JEUX/PASTEUR/anim/virus_rage/virus_rage.js",
+		"/C/xampp/htdocs/sylvain/pasteur/js/EnemyEntity.js",
+		"/C/xampp/htdocs/sylvain/napoleon/js/napoleon.js",
+		"/C/xampp/htdocs/sylvain/napoleon_moteur_avant_integration/js/napoleon.js",
+		"/C/xampp/htdocs/sylvain/pasteur/js/LifeBar.js",
+		"/C/xampp/htdocs/sylvain/pasteur/js/PasteurGame.js",
+		"/M/UCHRONIE/Design/_JEUX/NAPOLEON/Anim/Snowball/snowball.js",
+		"/M/UCHRONIE/Design/_JEUX/NAPOLEON/Anim/lanceur_blanc/lanceur_blanc.js",
+		"/C/xampp/htdocs/sylvain/napoleon/js/DefenseEntity.js",
+		"/C/xampp/htdocs/sylvain/napoleon/js/SkipButton.js",
+		"/M/UCHRONIE/Design/_JEUX/NAPOLEON/Anim/lanceur_noir/lanceur_noir.js",
+		"/C/xampp/htdocs/sylvain/_spritesheet/ramasseur.js",
+		"/C/xampp/htdocs/sylvain/_spritesheet/napoleon/lanceur_noir/lanceur_noir.js",
+		"/C/xampp/htdocs/sylvain/_spritesheet/napoleon/lanceur blanc/lanceur_blanc.js",
+		"/C/xampp/htdocs/sylvain/_spritesheet/lanceur_blanc.js",
+		"/C/xampp/htdocs/sylvain/napoleon.js",
+		"/C/xampp/htdocs/sylvain/_spritesheet/napoleon/napoleon/napoleon.js",
+		"/C/xampp/htdocs/sylvain/_spritesheet/napoleon.js",
+		"/M/UCHRONIE/Design/_JEUX/NAPOLEON/Anim/Ramasseur/ramasseur.js",
+		"/C/xampp/htdocs/sylvain/_spritesheet/ramasseur2.js",
+		"/C/xampp/htdocs/sylvain/napoleon/js/EnemyEntity.js",
+		"/C/xampp/htdocs/sylvain/napoleon/js/LifeBar.js",
+		"/C/xampp/htdocs/sylvain/tepat/titanic/js/TitanicMain.js",
+		"/C/xampp/htdocs/sylvain/tepat/titanic/js/TitanicUI.js",
+		"/C/xampp/htdocs/sylvain/tepat/WW2/js/GameWW2.js",
+		"/C/xampp/htdocs/sylvain/jfk/jfk.sublime-project",
+		"/C/xampp/htdocs/sylvain/napoleon/index.html",
+		"/C/Users/Nassim/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/xampp/htdocs/sylvain/jfk/js/jfk.js",
+		"/C/xampp/htdocs/sylvain/napoleon/sound/laser.mp3",
+		"/C/Users/Nassim/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/Nassim/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/xampp/htdocs/sylvain/skytroller/js/RadarChrono.js",
+		"/C/xampp/htdocs/sylvain/napoleon/js/TowerButtonDefense.js",
+		"/C/xampp/htdocs/sylvain/skytroller/js/RadarMain.js",
+		"/C/xampp/htdocs/sylvain/jfk/js/GameLoader.js",
+		"/C/xampp/htdocs/sylvain/napoleon/js/GameLoader.js",
+		"/C/xampp/htdocs/sylvain/skytroller/js/GameLoader.js",
+		"/C/xampp/htdocs/sylvain/skytroller/js/RadarHeader.js",
+		"/C/xampp/htdocs/sylvain/skytroller/js/RadarFooter.js",
+		"/C/xampp/htdocs/sylvain/skytroller/js/RadarButtonValidation.js",
+		"/C/xampp/htdocs/sylvain/tepat/enemy.js",
+		"/C/xampp/htdocs/sylvain/skytroller/js/RadarPlane.js",
+		"/C/xampp/htdocs/sylvain/skytroller/js/RadarScore.js",
+		"/C/xampp/htdocs/sylvain/skytroller/js/RadarScoreElement.js",
+		"/C/xampp/htdocs/sylvain/skytroller/js/RadarTrajectoire.js",
+		"/C/xampp/htdocs/sylvain/napoleon/sound/laser.wav",
+		"/C/xampp/htdocs/sylvain/napoleon/sound/laser.ogg",
+		"/C/xampp/htdocs/sylvain/napoleon/js/underscore-min.js",
+		"/C/xampp/htdocs/sylvain/napoleon/js/ndgmr.Collision.js",
+		"/C/xampp/htdocs/sylvain/pasteur/backup_20150313/js/pasteur.js",
+		"/C/xampp/htdocs/sylvain/pasteur/backup_20150318/js/pasteur.js",
+		"/C/xampp/htdocs/sylvain/pasteur/pasteur-project.sublime-project",
+		"/C/xampp/htdocs/sylvain/pasteur/backup_20150313/pasteur-project.sublime-project",
+		"/C/xampp/htdocs/sylvain/pasteur/backup_20150318/pasteur-project.sublime-project",
+		"/C/xampp/htdocs/sylvain/pasteur/backup_20150313/js/collision.js",
+		"/C/xampp/htdocs/sylvain/pasteur/js/underscore-min.js",
+		"/C/xampp/htdocs/sylvain/pasteur/sound/laser.mp3",
+		"/C/xampp/htdocs/sylvain/skytroller/js/skytroller.js",
+		"/C/xampp/htdocs/sylvain/skytroller/js/Header.js",
+		"/C/xampp/htdocs/sylvain/skytroller/js/Footer.js",
+		"/C/xampp/htdocs/sylvain/skytroller/js/Trajectoire.js",
+		"/C/xampp/htdocs/sylvain/skytroller/js/Plane.js",
+		"/C/xampp/htdocs/sylvain/skytroller/js/ScoreElement.js",
+		"/C/xampp/htdocs/sylvain/skytroller/js/Score.js",
+		"/C/xampp/htdocs/sylvain/skytroller/js/Chrono.js",
+		"/C/xampp/htdocs/sylvain/skytroller/js/ButtonValidation.js",
+		"/C/Users/Nassim/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/C/xampp/htdocs/sylvain/jfk/css/jfkgame.css",
+		"/C/xampp/htdocs/sylvain/jfk/index.html",
+		"/C/xampp/htdocs/sylvain/skytroller/skytroller.sublime-workspace",
+		"/C/xampp/htdocs/sylvain/pasteur/js/pasteur.js",
+		"/C/xampp/htdocs/sylvain/jfk/jfk.js",
+		"/C/xampp/htdocs/sylvain/jfk/jfk.html",
+		"/C/xampp/htdocs/sylvain/jfk/js/jfkgame.js",
+		"/C/xampp/htdocs/sylvain/pasteur/js/ButtonDefense.js",
+		"/M/UCHRONIE/Dev/games/jfk_refactor/js/jfk.js",
+		"/M/UCHRONIE/Dev/games/jfk_refactor/jfk.html",
+		"/C/xampp/htdocs/sylvain/skytroller/index.html",
+		"/C/xampp/htdocs/sylvain/pasteur/index.html",
+		"/C/xampp/htdocs/sylvain/tepat/parallax.js",
+		"/C/xampp/htdocs/sylvain/tepat/moteur1.html",
+		"/M/UCHRONIE/MoteurWWII/index.html",
+		"/C/Users/Nassim/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/xampp/htdocs/sylvain/pasteur/js/collision.js",
+		"/M/UCHRONIE/Dev/games/jfk_refactor/js/jfkgame.js",
+		"/C/xampp/htdocs/sylvain/tepat/moteur1.js",
+		"/F/Sylvain/no_webgl_jfk/js/jfkgame.js",
+		"/C/xampp/htdocs/sylvain/pasteur/moteur1.js",
+		"/C/xampp/htdocs/sylvain/test/test.html",
+		"/C/xampp/htdocs/sylvain/invaders/js/invaders.js",
+		"/C/xampp/htdocs/invaders_coffee_game/bin/index.html",
+		"/F/Sylvain/no_webgl_jfk/jfk.html",
+		"/C/xampp/htdocs/sylvain/invaders/invaders.html",
+		"/C/xampp/htdocs/invaders_coffee_game/src/coffee/main.coffee",
+		"/C/Users/Nassim/AppData/Roaming/Sublime Text 3/Packages/User/CoffeeScript.sublime-settings",
+		"/C/xampp/htdocs/invaders_coffee_game/src/coffee/GameWrapper.coffee",
+		"/C/Users/Nassim/AppData/Roaming/Sublime Text 3/Packages/Better CoffeeScript/CoffeeScript.sublime-settings",
+		"/C/xampp/htdocs/sylvain/invaders/js/collision.js",
+		"/F/Sylvain/createjs_touch/index.html",
+		"/F/Sylvain/no_webgl_jfk/css/jfkgame.css",
+		"/F/Sylvain/webgl_jfk/jfk.html",
+		"/F/Sylvain/webgl_jfk/jfkgame.js",
+		"/F/Sylvain/createjs_touch/test.html",
+		"/F/Sylvain/no_webgl_jfk/circle.svg",
+		"/F/Sylvain/bunny-flash-webgl-tutorial-master/final_0/bunny.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\xampp\\htdocs\\sylvain\\pasteur\\js"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"mouse",
+			"idDefenseToPlant",
+			"setOnBoardin",
+			"oneCaseMovingEnemy",
+			"bgTutoBitmap",
+			"Vierge",
+			"vierge",
+			"this.tutoElement",
+			"tuto_background",
+			"GameOver",
+			"startOn",
+			"stage.update",
+			"WavePro",
+			"virusProductionTimeoutArray",
+			"setValue",
+			"exploseVir",
+			"this.levelBar",
+			"levelBar",
+			"seringueBi",
+			"bgShape",
+			"levelBar",
+			"seringueBitmap",
+			"texture",
+			"buildHeader",
+			"seringueBitmap",
+			"textureBitmap",
+			"seringueBitmap",
+			"wallBitmap",
+			"buildHeader",
+			"Header",
+			"doGameOver",
+			"setOnBoardingStep",
+			"GameOver",
+			"onGame",
+			"infosText",
+			"this.onBoardingModeStep",
+			"13",
+			"allowADNAutogeneration",
+			"startEnemiesWaveProduction",
+			"tutoElement",
+			"onNextOnBoardingStepClick",
+			"onSkipOnboardingClick",
+			"disposeTutoElement",
+			"onSkipOnboardingClick",
+			"onNextOnBoardingStepClick",
+			"onSkipOnboardingClick",
+			"skipOnboardingButton",
+			"bgShapeBtnDefense",
+			"récolteur",
+			"TutoElement",
+			"buildTopButtons",
+			"Syl",
+			"GameOv",
+			"startBigWaveProduction",
+			"startEnemiesWaveProduction",
+			"13",
+			"startEnemiesWaveProduction",
+			"startFirstWaveProduction",
+			"startBigWaveProduction",
+			"startFirstWaveProduction",
+			"onOUt",
+			"setOnBo",
+			"onBo",
+			"virusApparitionTime",
+			"productNewVirus",
+			"Apparition",
+			"onBoardingModeStep",
+			"this.autoGeneratedADNTime",
+			"autoGeneratedADNTime",
+			"displayGeneratedADN",
+			"Mouse",
+			"mouse",
+			"initGraphics",
+			"alphaThreshold",
+			"onSkipOnboardingClick",
+			"setSelected",
+			"refreshButtonsStates",
+			"setSelected",
+			"refreshButtonsStates",
+			"idDefenseToPlant",
+			"onClickDefenseButton",
+			"heighthBar",
+			"this.levelBar",
+			"containerScoreAdn",
+			"PointsBar",
+			"displayShoot",
+			"plantNe",
+			"buildGrid",
+			".gridY",
+			"displayEne",
+			"\"50\"",
+			"50",
+			"levelBar",
+			"this.txtAdnScore.text",
+			"ADN",
+			"levelBar",
+			"buildHeader",
+			"isEmerging",
+			"displayShoot",
+			"get({})",
+			"explose",
+			"console",
+			"shapeBgTopButtons",
+			"éclatan",
+			"shapeDef",
+			"shapeVirus",
+			"shapeDef",
+			"shapeViru",
+			"explosion",
+			"images",
+			"buildExplo",
+			"shooter_spritesheet",
+			"Exp_type_C",
+			"shapeBgTopButtons",
+			"console",
+			"/*",
+			"//",
+			"displayEnemy",
+			"shapeVirus",
+			"shapeDef",
+			"ndgmr",
+			"rectVirus",
+			"rectCirus",
+			"width",
+			"this.virusArray",
+			"this.shapeDef",
+			"this.shape",
+			"thisshape"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"startEnemiesWaveProduction",
+			"heightBar",
+			"destruction",
+			"disposeTutoElement",
+			"this.tutoElement.infosText",
+			"this.containerDefense",
+			"disposeTopButtons",
+			"buildTopButtons",
+			"pasteurHeadBitmap",
+			"adnHeaderBitmap",
+			"adn_header",
+			"pasteur_head",
+			"pasteurGame",
+			"tmpDefense",
+			"onShooterEnemyAnimationEnd",
+			"this.image",
+			"image",
+			"this.bitmap",
+			"this.image",
+			"this.napoleonSprite",
+			"onClickDefenseButton",
+			"disposeSkipOnboardingButton",
+			"Onboarding",
+			"skipOverboardingButton",
+			"shooter",
+			"generator",
+			"containerDefense",
+			"txtDefense",
+			"bgShapeBtnDefense",
+			"tmpDefense",
+			"gridEspaceCaseX",
+			"this.gameIsStarted",
+			"fadeInGameEndOverlay",
+			"autoFallingAdnTween",
+			"disposeInfosText",
+			"btnShooterButton",
+			"btnGeneratorButton",
+			"startBigWaveTextBlinking",
+			"disposeBigWaveText",
+			"tmpVirus.fullScaleY",
+			"tmpVirus.fullScaleX",
+			"\"mousedown\", this.onClickGridCaseHandler",
+			"this.gridEspaceCase",
+			"this.gridNbColonnes",
+			"this.gridHeightCase",
+			"this.gridWidthCase",
+			"this.nbColonnes",
+			"napoleonGame",
+			"this.mainContainer",
+			"RadarButtonValidation",
+			"buildFooter",
+			"buildHeader",
+			"bgShape",
+			"this.rectKennedyImg",
+			"pRectCible",
+			"this.rectJackieImg",
+			"600",
+			"this.imgCar",
+			"this.bgShapeScore",
+			"disposeArrayTimeOutVirus",
+			"productDelayedVirus",
+			"this.arrayGrid",
+			"this.gameStarted",
+			"this.startText",
+			"this.alphaThreshold",
+			"this.shootArray",
+			"this.defenseArray",
+			"this.virusArray",
+			"this.animationExplosion",
+			"this.idDefenseToPlant",
+			"this.btnAntigeneButton",
+			"this.btnAnticorpsButton",
+			"this.containerGrid",
+			"this.txtAdnScore",
+			"this.tmpAdn",
+			"tmpScoreAdn",
+			"this.bgShape",
+			"this.stage.",
+			"this.stageheight",
+			"this.stagewidth",
+			"this.eventListeners",
+			"this.chrono",
+			"this.listenerPressUpPlane",
+			"this.listenerPressMovePlane",
+			"this.deltaPosition",
+			"this.prevMousePosition",
+			"this.arrayTrajectoires",
+			"this.arrayPlanes",
+			"this.bgShape",
+			"this.currentID",
+			"this.btnFixedOK",
+			"this.scoreElement",
+			"this.containerButtons",
+			"this.containerTrajectoires",
+			"this.containerPlanes",
+			"this.containerRadar",
+			"this.stageheight",
+			"this.stagewidth",
+			"this.startText",
+			"\"pressup\"",
+			"\"pressmove\"",
+			"\"mousedown\"",
+			"\"touchup\"",
+			"\"mousedown\"",
+			"this.etiquette",
+			"this.secondes",
+			"currentID",
+			"bgShapeBtn",
+			"deltaPosition",
+			"prevMousePosition",
+			"txtMain",
+			"mainContainer",
+			"ButtonValidation",
+			"this.screenwidth",
+			"this.screenheight",
+			"screenwidth",
+			"startPointCoord",
+			"selectedShapeBtnContour",
+			"displayGeneratedADN",
+			"rectKennedyHead",
+			"mouseDown"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.coffee_compile_output":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "nodebeers.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"js\\GameLoader.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 205.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
